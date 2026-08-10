@@ -1,0 +1,45 @@
+{
+  "name": "Roads at Risk - Barnegat Township DEM",
+  "source": "USGS 3DEP Bare Earth DEM Dynamic ImageServer",
+  "sourceUrl": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+  "sourceDescription": "USGS 3D Elevation Program (3DEP) Bare Earth DEM Dynamic service, retrieved for the Roads at Risk municipal rollout.",
+  "downloadedAt": "2026-08-10",
+  "processing": "Exported from USGS 3DEP at municipal extent, masked to the Barnegat Township boundary, adaptively resampled to 19.7 ft pixels to keep the browser-delivered raster within operational size limits, and compressed as a Cloud Optimized GeoTIFF.",
+  "horizontalCrs": "EPSG:3857",
+  "verticalUnits": "meters",
+  "displayElevationUnits": "feet",
+  "pixelSizeMeters": 5.99492968058165,
+  "pixelSizeFeet": 19.668404463771886,
+  "adaptiveResolution": true,
+  "width": 5118,
+  "height": 3127,
+  "nodata": -999999,
+  "minMeters": 0,
+  "maxMeters": 60.973,
+  "meanMeters": 26.069,
+  "stdDevMeters": 19.413,
+  "minFeet": 0,
+  "maxFeet": 200.042650917835,
+  "webMercatorBounds": [
+    -8284051.581393,
+    4822253.913170821,
+    -8253369.531287783,
+    4841000.058282
+  ],
+  "leafletBounds": [
+    [
+      39.698726,
+      -74.4169015
+    ],
+    [
+      39.8281446,
+      -74.1412876
+    ]
+  ],
+  "files": {
+    "demCog": "barnegat_township_dem_5ft_cog.tif",
+    "hillshadeCog": "barnegat_township_hillshade_cog.tif",
+    "hillshadePng": "barnegat_township_hillshade.png",
+    "boundaryGeojson": "barnegat_township_boundary.geojson"
+  }
+}
